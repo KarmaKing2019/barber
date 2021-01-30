@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.6.0",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
@@ -19,6 +19,7 @@
     "popper.js": "^1.12.9"
   },
   "devDependencies": {
+    "eslint": "^7.18.0",
     "lite-server": "^2.6.1"
   }
 }
