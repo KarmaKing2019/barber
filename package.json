@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
     "start": "npm run lite",
     "main:": "aboutus.html"
   },
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "eslint": "^7.18.0",
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "node-sass": "^4.14.1"
   }
 }
