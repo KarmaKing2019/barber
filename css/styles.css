@@ -1,10 +1,22 @@
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif; 
+  background-image: url("../img/photo-1542762735-ddc16fb8daaa.jpg");
+  background-repeat: no-repeat;
+  background-size: 1700px 1300px;
+  background-attachment: fixed;
+}
 
-h1,
+
+  h1 {
+    font-size: 70px;
+    font-family: 'Mr Dafoe', cursive;
+    color: yellow
+  }
+
 h2,
 h3 {
-  font-family: "Lobster", cursive; }
+  font-family: 'Bebas Neue', cursive;
+}
 
 h2 {
   color: #3046C5; }
@@ -14,12 +26,14 @@ header h2 {
 
 .site-footer {
   background-image: linear-gradient(#CEC8FF, white);
-  padding: 20px 0; }
+  padding: 20px 0; 
+}
 
 .jumbotron {
   margin: 0;
   padding: 30px;
   background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  background-color: black;
   color: white; }
 
 .row-content {
@@ -28,7 +42,7 @@ header h2 {
   min-height: 200px; }
 
 .navbar {
-  background: #901CAD; }
+  background: #dda429; }
 
 .tab-content {
   border: 1px solid #DDD;
@@ -42,8 +56,12 @@ a, a:hover {
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
 
+.fade-white {
+  background-color: rgba(238, 229, 229, 0.5);
+}
+
 .carousel {
-  border: solid #5637dd; }
+  border: solid #f6f5fc; }
 
 #carouselButton {
   position: absolute;
@@ -51,3 +69,32 @@ a, a:hover {
   bottom: 0;
   z-index: 100;
   /*Ensure buttons are on top of Carousel*/ }
+
+  .banner {
+    background-image: url("../img/barber.jpg");
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-repeat: no-repeat;
+  }
+
+  
+  .btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+    display: block;
+  }
+  
+  .thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .header {
+    padding-right: 0; padding-left: 0; padding-top: 0;
+  }
+
+
+
+  
