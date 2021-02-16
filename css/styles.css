@@ -16,6 +16,15 @@ body {
   overflow-x:hidden; */
 }
 
+.contactus_back {
+  
+  background-image: url("../img/bolden_superiordowntowncleveland.jpg");
+  
+  /* background-size: 1450px 300px;
+  background-attachment: fixed;
+  overflow-x:hidden; */
+}
+
 
   h1 {
     font-size: 70px;
@@ -25,7 +34,7 @@ body {
 
 h2,
 h3 {
-  font-family: 'Bebas Neue', cursive;
+
 }
 
 h2 {
@@ -156,7 +165,7 @@ img.zoom {
 
 .news-image {
   float: left;
-  width: 33.3%;
+  width: 100%;
   padding: 5px;
   box-sizing: border-box;
 }
@@ -174,8 +183,13 @@ img.zoom {
   height: 230px;
 }
 
+.price {
+  font-family: 'Ranchers', cursive;
+  font-size: 50px;
+}
+
 .service_list_title {
-  font-size: 40px;
+  font-size: 35px;
   font-family: 'Permanent Marker', cursive;
   color: maroon
 }

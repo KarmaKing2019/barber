@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lite": "lite-server",
+    "babel": "babel js/galleries.js -o js/galleries.js",
     "scss": "node-sass -o css/ css/",
     "start": "npm run watch:all",
     "main:": "aboutus.html",
@@ -12,7 +13,7 @@
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "clean": "rimraf dist",
-    "imagemin": "imagemin img/* -o dist/img",
+    "imagemin": "imagemin img/* -o dist/img && imagemin img/stay_faded_pics/* -o dist/img/stay_faded_pics && imagemin img/men_cuts/* -o dist/img/men_cuts",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
@@ -27,6 +28,14 @@
     "popper.js": "^1.12.9"
   },
   "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
     "copyfiles": "^2.2.0",
     "eslint": "^7.18.0",
     "imagemin-cli": "^5.1.0",
@@ -34,6 +43,7 @@
     "node-sass": "^4.14.1",
     "onchange": "^7.0.0",
     "parallelshell": "3.0.1",
-    "usemin-cli": "^0.6.0"
+    "usemin-cli": "^0.6.0",
+    "webpack": "^5.21.2"
   }
 }
