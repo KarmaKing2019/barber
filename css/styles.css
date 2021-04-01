@@ -7,6 +7,12 @@ body {
   overflow-x:hidden;
 }
 
+.hiring {
+  background-image: url("../img/grey-gradient-background.jpg");
+  background-size: 1500px 1300px;
+  
+}
+
 .gray-brick {
   
   background-image: url("../img/grey_brick.jpg");
@@ -102,7 +108,7 @@ a, a:hover {
   /*Ensure buttons are on top of Carousel*/ }
 
   .banner {
-    background-image: url("../img/barber2.jpg");
+    background-image: url("../img/barber23.jpg");
     background-color: rgba(134,0,56, 0.6); 
     background-repeat: no-repeat;
   }
@@ -185,13 +191,18 @@ img.zoom {
 
 .price {
   font-family: 'Ranchers', cursive;
-  font-size: 50px;
+  font-size: 30px;
 }
 
+.galleryBox {
+  height: 100px;
+}
+
+
 .service_list_title {
-  font-size: 35px;
+  font-size: 17px;
   font-family: 'Permanent Marker', cursive;
-  color: maroon
+  color: maroon;
 }
 
 .container1{
@@ -207,4 +218,21 @@ img.zoom {
   border: 1px solid blue;
   overflow: auto;
   padding-right: 15px;
+}
+
+/* Container holding the image and the text */
+.imageContainer {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: -90px;
+  right: 20%;
+  background-color: rgba(134,0,56, 0.6); 
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
 }
